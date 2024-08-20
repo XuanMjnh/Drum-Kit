@@ -1,0 +1,46 @@
+body {
+   text-align: center;
+   background-image:url('./image/background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+html {
+    height: 100%;
+}
+h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: bold; /* Đậm chữ */
+    font-size: 8rem; /* Kích thước chữ */
+    letter-spacing: 5px; /* Khoảng cách giữa các chữ cái */
+    text-transform: uppercase;
+    color: rgb(53, 40, 40);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3); /* Đổ bóng chữ */
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.btn {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(53, 40, 40);
+    border-width: 5px;
+    border-color: antiquewhite;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+}
+footer {
+    font-family: "New Amsterdam", sans-serif;
+    margin-top: 20rem;
+}
+.pressed {
+    box-shadow: 0 50px 80px #3d3d3d;
+    transform: scale(0.98);
+    background-color: #afaeae;
+}
