@@ -22,7 +22,6 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex: wrap;
     gap: 15px;
 }
 .btn {
@@ -35,7 +34,7 @@ h1 {
     color: aliceblue;
     font-size: larger;
     font-weight: bold;
-    flex: 1;
+    flex: wrap;
 }
 footer {
     font-family: "New Amsterdam", sans-serif;
