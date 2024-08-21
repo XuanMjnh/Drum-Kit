@@ -13,7 +13,7 @@ h1 {
     font-weight: bold; /* Đậm chữ */
     font-size: 8rem; /* Kích thước chữ */
     letter-spacing: 5px; /* Khoảng cách giữa các chữ cái */
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: rgb(53, 40, 40);
     text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3); /* Đổ bóng chữ */
 }
