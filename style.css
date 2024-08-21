@@ -1,12 +1,12 @@
 body {
    text-align: center;
    background-image:url('./image/background.jpg');
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-size: cover;
    background-position: center;
 }
 html {
-    height: 100%;
+    height: 100vh;
 }
 h1 {
     font-family: "New Amsterdam", sans-serif;
@@ -23,18 +23,18 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 .btn {
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 150px;
+    height: 150px;
     background-color: rgb(53, 40, 40);
     border-width: 5px;
     border-color: antiquewhite;
     color: aliceblue;
     font-size: larger;
     font-weight: bold;
-    flex: wrap;
 }
 footer {
     font-family: "New Amsterdam", sans-serif;

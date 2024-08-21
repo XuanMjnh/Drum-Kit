@@ -15,12 +15,10 @@ function makeSound(key) {
         var tom = new Audio("./sounds/crash.mp3");
         tom.play();
         break;
-        
         case '2':
         var tom = new Audio("./sounds/kick-bass.mp3");
         tom.play();
         break;
-        
         case '3':
         var tom = new Audio("./sounds/snare.mp3");
         tom.play();
