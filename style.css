@@ -26,8 +26,8 @@ h1 {
 }
 .btn {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     background-color: rgb(53, 40, 40);
     border-width: 5px;
     border-color: antiquewhite;
