@@ -35,6 +35,7 @@ h1 {
     color: aliceblue;
     font-size: larger;
     font-weight: bold;
+    flex: 1;
 }
 footer {
     font-family: "New Amsterdam", sans-serif;
